@@ -56,8 +56,8 @@
       pg_database=awx
       pg_port=5432
       pg_admin_password=5fe2e032ffc8c
-      admin_user=admin
-      admin_password=password
+      admin_user=jlorentino
+      admin_password=Demilovato2*
       create_preload_data=True
       secret_key=5fe2e032ffc8c1e13ed3dc3dfd52fdfaab09a9a35631f59cd7390ae7d181fd98
       project_data_dir=/files/awx/projects
