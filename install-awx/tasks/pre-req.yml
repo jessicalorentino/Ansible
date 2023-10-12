@@ -25,7 +25,7 @@
   pip:
     executable: pip3
     name: 
-        - docker-compose==1.9.0
+      - docker-compose==1.9.0
     
 - name: Clonando o REPO
   git:
