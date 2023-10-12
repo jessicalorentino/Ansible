@@ -1,15 +1,15 @@
 - hosts: awx
   become: yes
-  user: adminlx
+  user: jlorentino
   gather_facts: no
   pre_tasks:
     - name: 'Install o Python'
-      raw: 'apt-get install -y python'
+      raw: 'apt-get install -y python3'
     - name: 'Update o Repo'
       raw: 'apt-get -y update'
 - hosts: awx
   become: yes
-  user: adminlx
+  user: jlorentino
   roles:
   - { role: install-awx, tags: ["install_awx"]}
     
